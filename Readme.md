@@ -45,4 +45,10 @@ from transformers import pipeline
 classifier = pipeline("ner", model="keonju/korean_disease_ner") 
 ```
 
+### Reference
 
+1. Fine-Tuned Model  
+NER model fine-tuned [klue/bert-base](https://huggingface.co/klue/bert-base) for NER Task.  
+
+2. Dataset  
+Choose Named Entity in [모두의 말뭉치 - 개체명 분석 말뭉치 2020](https://corpus.korean.go.kr/request/corpusRegist.do)
