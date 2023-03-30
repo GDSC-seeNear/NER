@@ -1,4 +1,4 @@
-# SeeNear NER (Named Entity recognization)
+# SeeNear NER (Named Entity Recognization)
 
 Our model was developed using Huggingface and Pytorch.  
 We fine-tuned the Bert-base model by classifying datasets that can relate to disease in the dataset. 
