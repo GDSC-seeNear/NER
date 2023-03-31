@@ -45,6 +45,46 @@ from transformers import pipeline
 classifier = pipeline("ner", model="keonju/korean_disease_ner") 
 ```
 
+- - -
+</br>
+
+# Start Guide
+
+**Requirments**
+
+What you need to build and run this application:   
+- Python 3.10
+- MySQL 8.0.26
+
+**Installation**
+```
+$ git clone https://github.com/GDSC-seeNear/NER.git
+```
+If Linux
+```
+$ sudo apt-get install git-lfs
+$ git lfs install
+```
+
+If Mac Os
+```
+$ brew install git-lfs
+$ git lfs install
+```
+
+```
+$ pip install -r requirements.txt
+$ git clone https://huggingface.co/keonju/korean_disease_ner
+```
+
+
+**Run**
+```
+$ uvicorn main:app —host 0.0.0.0 --port 8080
+```
+</br>
+
+
 ### Reference
 
 1. Fine-Tuned Model  
